@@ -16,8 +16,8 @@ export function sortStrings(arr, param = 'asc') {
 
   return param === 'asc'
   ?
-  newArr.sort ((a, b) => collator. compare(a, b))
+  newArr.sort((a, b) => collator.compare(a, b))
   :
-  newArr.sort ((a, b) => collator. compare (b, a))
+  newArr.sort((a, b) => collator.compare (b, a))
 }
 
